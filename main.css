@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, button{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header{
+  background-color: #275277;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h1, h2{
+  font-size: 42px;
+  color:#7E909e;
+}
+h2{
+  margin-bottom: 60px;
+}
+
+header li{
+  display: inline;
+  margin-left: 20px;
+}
+
+header li a{
+  color:#7E909E;
+  font-size: 24px;
+  text-decoration: none;
+}
+header li a:hover{
+  color: #fff;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SOBRE */
+#sobre, #escola{
+  margin-bottom: 100px;
+}
+
+
+#sobre .container p{
+  font-size: 22px;
+}
+
+/* EBAC */
+
+#escola img{
+  height: 180px;
+}
+
+#escola .container p{
+  font-size: 22px;
+  margin-right: 120px;
+}
+
+/* FORM */
+.flex2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea{
+  resize: none;
+  height: 180px;
+}
+
+/* CONTATO */
+#contato{
+  padding: 60px 0;
+  background-color: #7E909E;
+}
+
+#contato h2{
+  text-align: center;
+  color: #fff;
+}
+
+#contato img{
+  height: 50px;
+}
+
+.links li{
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.links li a{
+  text-decoration: none;
+}
+
+#contato h3{
+  color: #275277;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#contato label,
+#contato input,
+#contato textarea{
+  font-size: 22px;
+}
+
+#contato p{
+  font-size: 24px;
+}
+
+#contato .endereco a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#275277;
+}
+#contato .endereco a:hover{
+  color: #fff;
+}
+
+#contato button{
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #275277;
+  color: #7E909E;
+  border: none;
+  cursor: pointer;
+}
+
+#contato button:hover{
+  color: #fff;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  font-weight: normal;
+  padding: 20px;
+  color: #fff;
+  background-color: #275277;
+}
